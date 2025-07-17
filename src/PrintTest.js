@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
  
-const BalajiPrintTest = () => {
+const PrintTest = () => {
   const [devices, setDevices] = useState([]);
   const [selectedDevice, setSelectedDevice] = useState(null);
   const [server, setServer] = useState(null);
@@ -132,6 +132,6 @@ const BalajiPrintTest = () => {
   );
 };
  
-export default BalajiPrintTest;
+export default PrintTest;
  
  
