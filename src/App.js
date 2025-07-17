@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css" ;
 import BluetoothPrinterPCX from "./BluetoothPrinterPCX";
-import BalajiprintTest from "./BalajiPrintTest";
+import PrintTest from "./PrintTest";
 import BluetoothPrinter from "./BluetoothPrinter";
 import TSCBluetoothPrinter from "./TSCBluetoothPrinter";
 import Librarytest from "./Librarytest";
@@ -177,7 +177,7 @@ PRINT 1,1\r\n
         <button onClick={connectToPrinter}>Print Test Paper</button> */}
         {/* <TSCBluetoothPrinter/> */}
         {/* <BluetoothPrinterPCX/> */}
-        {/* <BalajiprintTest/> */}
+        {/* <PrintTest/> */}
         {/* <BluetoothPrinter/> */}
         <Librarytest/>
       </header>
